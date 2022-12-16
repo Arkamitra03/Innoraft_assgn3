@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+.box {
+    display: flex;
+    background-color: rgb(57, 151, 197);
+    height: 180px;
+    margin-top: 65px;
+
+}
+
+.head1 {
+    width: 65%;
+    padding: 4%;
+}
+
+.head2 {
+    width: 35%;
+    padding: 5%;
+}
+
+.head2 button {
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(57, 151, 197);
+    width: 150px;
+    height: 45px;
+}
+
+.main-content {
+    display: flex;
+
+    text-align: left;
+}
+
+.box1 h2 {
+    text-align: center;
+    margin-left: 28%;
+    width: 39%;
+    border-bottom: 1px solid rgb(57, 151, 197);
+}
+
+.box1 {
+    width: 33.33%;
+}
+
+.sub {
+    display: flex;
+    margin-left: 15%;
+    opacity: 0.7;
+}
+
+.sub-box1 {
+    width: 40%;
+}
+
+.sub-box2 {
+    width: 60%;
+}
+
+.box1 ul {
+    list-style: none;
+}
+
+.box2 h2 {
+    text-align: center;
+    width: 45%;
+    border-bottom: 1px solid rgb(57, 151, 197);
+}
+
+.box2 {
+    width: 50%;
+    margin-left: 10%;
+}
+.box2 .content{
+    margin-top: 6%;
+    font-size: 15px;
+    font-weight: 100;
+    opacity: 0.7;
+}
+
+.box3 h2 {
+    text-align: center;
+    width: 38%;
+    border-bottom: 1px solid rgb(57, 151, 197);
+}
+
+.box3 {
+    width: 33%;
+    margin-right: 3%;
+}
+.inp-email{
+    display: flex;
+    height: 50px;
+    width: 310px;
+    border: 0.5px solid white;
+    border-radius: 8px;
+    background-color: rgb(53, 52, 52);
+    
+}
+.email{
+    width: 70%;
+    padding: 13px;
+    opacity: 0.7;
+}
+.subscribe{
+    width: 30%;
+    background-color: rgb(57, 151, 197);
+    padding: 13px;
+    border-radius: 8px;
+    font-weight: 700;
+}
+.box3 .fa-brands{
+    padding: 10px;
+}
+.fa-facebook-f{
+    background-color: #3b5998;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-right: 3px;
+}
+.fa-twitter{
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: #1DA1F2;
+    margin-right: 3px;
+}
+.fa-youtube{
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color:#FF0000;
+    margin-right: 3px;
+}
+.fa-linkedin{
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color:#0A66C2;
+}
+hr{
+    border-style: none;
+    border-top-style: solid;
+    opacity: 0.3;
+}
+footer{
+    text-align: center;
+    margin-top: 15px;
+    opacity: 0.7;
+}
